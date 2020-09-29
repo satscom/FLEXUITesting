@@ -1,4 +1,3 @@
-const { it } = require("mocha");
 
 describe('Login Page', () => {
 
@@ -8,7 +7,9 @@ describe('Login Page', () => {
 
         cy.server();
 
-        cy.route('fez/flexapi/asapmanagement/summary/ALL/2020-09-28/2020-09-28', "@asapJSON").as("asap");
+        cy.route('/fez/flexapi/asapmanagement/summary/ALL/**', "@asapJSON").as("asap");
+      //  cy.route('POST','/cdxapi/gettoken',{})
+      //  cy.route('POST','/cdxapi/isValidSession',{})
 
     });
 
@@ -20,7 +21,7 @@ describe('Login Page', () => {
         cy.get('input[name=email]').type(Cypress.env("userName"));
         cy.get('input[name=password]').type(Cypress.env("password"));
         cy.contains('SIGN IN').click();
-        
+        cy.contains('Early Funding').click();
     })
 
     

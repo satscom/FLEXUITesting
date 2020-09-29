@@ -1,10 +1,9 @@
-{"payload": [
     {
         "status": "OK",
         "code": 0,
         "requestId": "a39423d2-a136-4fd6-83f9-92735412eed7",
         "message": "SUCCESS",
-        "responseCreatedTimestamp": "09/28/2020 09:09:09 PM",
+        "responseCreatedTimestamp": "09/29/2020 09:09:09 PM",
         "additionalInfo": null,
         "responsePayload": {
             "singleFamilyDetails": {
@@ -62,5 +61,4 @@
         }
     }
 }
-]
-}
+
