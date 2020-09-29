@@ -1,0 +1,66 @@
+{"payload": [
+    {
+        "status": "OK",
+        "code": 0,
+        "requestId": "a39423d2-a136-4fd6-83f9-92735412eed7",
+        "message": "SUCCESS",
+        "responseCreatedTimestamp": "09/28/2020 09:09:09 PM",
+        "additionalInfo": null,
+        "responsePayload": {
+            "singleFamilyDetails": {
+                "Requested":{
+                    "numberOfLoans": 155,
+                    "amout":11
+                },    
+            "Scheduled":{
+                "numberOfLoans": 156,
+                "amout":12
+            },
+            "Released":{
+                "numberOfLoans": 157,
+                "amout":32
+            },
+            "Funded":{
+                "numberOfLoans": 158,
+                "amout":33
+            },
+            "Authorized":{
+                "numberOfLoans": 159,
+                "amout":34
+            },
+            "Cancelled":{
+                "numberOfLoans": 160,
+                "amout":35
+            }
+        },
+        "multiFamilyDetails": {
+
+            "Requested":{
+                "numberOfLoans": 1,
+                "amout":11
+            },    
+        "Scheduled":{
+            "numberOfLoans": 2,
+            "amout":12
+        },
+        "Released":{
+            "numberOfLoans": 3,
+            "amout":32
+        },
+        "Funded":{
+            "numberOfLoans": 4,
+            "amout":33
+        },
+        "Authorized":{
+            "numberOfLoans": 5,
+            "amout":34
+        },
+        "Cancelled":{
+            "numberOfLoans": 160,
+            "amout":35
+        }
+        }
+    }
+}
+]
+}

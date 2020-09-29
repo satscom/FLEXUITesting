@@ -4,13 +4,17 @@ describe('Login Page', () => {
 
     beforeEach(() => {
 
-     // Mock server will be added here
+        cy.fixture('asapplus.json').as("asapJSON");
+
+        cy.server();
+
+        cy.route('fez/flexapi/asapmanagement/summary/ALL/2020-09-28/2020-09-28', "@asapJSON").as("asap");
 
     });
 
 
     it('should display header', () => {
-        let pwd = Cypress.env("password");  
+        
         cy.visit(Cypress.env("siteURL"));
         cy.contains("Welcome");
         cy.get('input[name=email]').type(Cypress.env("userName"));
