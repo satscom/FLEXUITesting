@@ -1,22 +1,23 @@
+const { it } = require("mocha");
 
 describe('Login Page', () => {
 
     beforeEach(() => {
 
-        console.log("Before hook");
+     // Mock server will be added here
 
     });
 
 
     it('should display header', () => {
-          
-       // Add cy.visit here
+        let pwd = Cypress.env("password");  
+        cy.visit(Cypress.env("siteURL"));
         cy.contains("Welcome");
-        cy.get('input[name=email]').type('test');
-        cy.get('input[name=password]').type(`test{enter}`);
-        cy.contains("We didn't recognize your credentials. Please try again");
-    
+        cy.get('input[name=email]').type(Cypress.env("userName"));
+        cy.get('input[name=password]').type(Cypress.env("password"));
+        cy.contains('SIGN IN').click();
         
     })
 
+    
 });
