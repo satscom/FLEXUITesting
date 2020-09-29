@@ -13,52 +13,61 @@
                 },    
             "Scheduled":{
                 "numberOfLoans": 156,
-                "amout":12
+                "amount":12
             },
             "Released":{
                 "numberOfLoans": 157,
-                "amout":32
+                "amount":32
             },
             "Funded":{
                 "numberOfLoans": 158,
-                "amout":33
+                "amount":33
             },
             "Authorized":{
                 "numberOfLoans": 159,
-                "amout":34
+                "amount":34
             },
             "Cancelled":{
                 "numberOfLoans": 160,
-                "amout":35
+                "amount":35
             }
         },
         "multiFamilyDetails": {
 
             "Requested":{
                 "numberOfLoans": 1,
-                "amout":11
+                "amount":11
             },    
         "Scheduled":{
             "numberOfLoans": 2,
-            "amout":12
+            "amount":12
         },
         "Released":{
             "numberOfLoans": 3,
-            "amout":32
+            "amount":32
         },
         "Funded":{
             "numberOfLoans": 4,
-            "amout":33
+            "amount":33
         },
         "Authorized":{
             "numberOfLoans": 5,
-            "amout":34
+            "amount":34
         },
         "Cancelled":{
             "numberOfLoans": 160,
-            "amout":35
+            "amount":35
         }
         }
-    }
+    },
+    "partyDetails" : {
+        "partyId": "12345",
+        "partyName": "Berkeley Point"
+
+    },
+    "endScheduleFundingDate":"09/29/2020",
+    "startScheduleFundingDate":"09/29/2020",
+    "partyName":"ALL"
+   
 }
 
