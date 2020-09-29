@@ -12,12 +12,7 @@ describe("Cancellation of Authorized Funding Request", () => {
     })
 
     it ("user can filter on Authorized FR, and cancel the same", () => {
-        // cy.visit("https://glass.acptfanniemae.com/flex/#/funding-request")
-        ///flex/#/funding-request
-
-        // cy.get('input[name=email]').type(Cypress.env("userName"));
-        // cy.get('input[name=password]').type(Cypress.env("password"));
-        // cy.get('.c-button').click();
+     
 
         cy.url().should('include', '/glass-home')
         cy.get('.md-card').click()
