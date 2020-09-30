@@ -1,0 +1,22 @@
+{
+  "status": "OK",
+  "code": 1,
+  "requestId": "96f8a230-caad-4a9a-85e0-26fb0a888681",
+  "message": "No Notifications records founds. Please try again.",
+  "responseCreatedTimestamp": "09/29/2020 08:01:59 PM",
+  "additionalInfo": null,
+  "responsePayload": {
+    "schemaVersion": 1.0,
+    "countAllOpenNotifications": 0,
+    "countOpenTotal": 0,
+    "countOpenHigh": 0,
+    "countOpenMedium": 0,
+    "countOpenLow": 0,
+    "countResolvedTotal": 0,
+    "countResolvedHigh": 0,
+    "countResolvedMedium": 0,
+    "countResolvedLow": 0,
+    "reportedTimestamp": "09/29/2020 08:01:59 PM",
+    "notificationList": []
+  }
+}

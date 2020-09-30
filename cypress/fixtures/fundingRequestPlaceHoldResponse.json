@@ -1,0 +1,21 @@
+{
+  "status": "OK",
+  "code": 0,
+  "requestId": "485d99e8-30c1-4d4d-adc9-021e91b0fc76",
+  "message": "FR Operation FR_PLACE_HOLD request by user g8uhcz successful for all requested IDs.",
+  "responseCreatedTimestamp": "09/29/2020 07:50:27 PM",
+  "additionalInfo": null,
+  "responsePayload": {
+    "fundingRequestEntities": null,
+    "fundingRequestOperationStatus": [
+      {
+        "fndgId": "5000442",
+        "astId": "4221502756:L",
+        "code": 0,
+        "status": "SUCCESS",
+        "message": "SUCCESS"
+      }
+    ],
+    "fundingRequestHoldDetailsResponseModel": null
+  }
+}

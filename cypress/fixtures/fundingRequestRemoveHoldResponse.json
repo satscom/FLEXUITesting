@@ -1,0 +1,21 @@
+{
+  "status": "OK",
+  "code": 0,
+  "requestId": "1229d9f1-a5b3-4a57-8be7-65b3957c4117",
+  "message": "FR Operation FR_REMOVE_HOLD request by user g8uhcz successful for all requested IDs.",
+  "responseCreatedTimestamp": "09/29/2020 07:52:25 PM",
+  "additionalInfo": null,
+  "responsePayload": {
+    "fundingRequestEntities": null,
+    "fundingRequestOperationStatus": [
+      {
+        "fndgId": "5000442",
+        "astId": "4221502756:L",
+        "code": 0,
+        "status": "SUCCESS",
+        "message": "SUCCESS"
+      }
+    ],
+    "fundingRequestHoldDetailsResponseModel": null
+  }
+}
